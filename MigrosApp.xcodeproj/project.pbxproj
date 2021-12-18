@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121BA306D05F0B0C4D8F2707 /* Pods_MigrosApp_MigrosAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A351AF78342597D3DB4E85 /* Pods_MigrosApp_MigrosAppUITests.framework */; };
 		4F3F4B35276D5FE90006456D /* ProductStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F4B34276D5FE90006456D /* ProductStruct.swift */; };
 		4F979798276BDFB1007537D4 /* HeaderLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F979796276BDFB1007537D4 /* HeaderLabelTableViewCell.swift */; };
 		4F979799276BDFB1007537D4 /* HeaderLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F979797276BDFB1007537D4 /* HeaderLabelTableViewCell.xib */; };
@@ -32,6 +33,8 @@
 		4FCDDCF0276D1CE50053BB69 /* ImageSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FCDDCEE276D1CE50053BB69 /* ImageSliderCell.xib */; };
 		4FCDDCF4276D1DC20053BB69 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDDCF2276D1DC20053BB69 /* SliderCollectionViewCell.swift */; };
 		4FCDDCF5276D1DC20053BB69 /* SliderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FCDDCF3276D1DC20053BB69 /* SliderCollectionViewCell.xib */; };
+		7E52F6B9F785C9E67AAB61EC /* Pods_MigrosAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAC26E8DA17BA94B4728A41 /* Pods_MigrosAppTests.framework */; };
+		F38DCC33E69459557495C609 /* Pods_MigrosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A82DB34DFE36D32EA63812A /* Pods_MigrosApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		168773D40297B790B40C28AB /* Pods-MigrosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MigrosApp.debug.xcconfig"; path = "Target Support Files/Pods-MigrosApp/Pods-MigrosApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1A82DB34DFE36D32EA63812A /* Pods_MigrosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MigrosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A80E45B9529BD59AB30E9D3 /* Pods-MigrosApp-MigrosAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MigrosApp-MigrosAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MigrosApp-MigrosAppUITests/Pods-MigrosApp-MigrosAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CAC26E8DA17BA94B4728A41 /* Pods_MigrosAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MigrosAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3F4B34276D5FE90006456D /* ProductStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStruct.swift; sourceTree = "<group>"; };
 		4F979796276BDFB1007537D4 /* HeaderLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderLabelTableViewCell.swift; sourceTree = "<group>"; };
 		4F979797276BDFB1007537D4 /* HeaderLabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderLabelTableViewCell.xib; sourceTree = "<group>"; };
@@ -81,6 +88,11 @@
 		4FCDDCEE276D1CE50053BB69 /* ImageSliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageSliderCell.xib; sourceTree = "<group>"; };
 		4FCDDCF2276D1DC20053BB69 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
 		4FCDDCF3276D1DC20053BB69 /* SliderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCollectionViewCell.xib; sourceTree = "<group>"; };
+		9E2C7E06150748BBBC8A831B /* Pods-MigrosApp-MigrosAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MigrosApp-MigrosAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MigrosApp-MigrosAppUITests/Pods-MigrosApp-MigrosAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2D00BFB36B13A70927DC76C /* Pods-MigrosAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MigrosAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MigrosAppTests/Pods-MigrosAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAA5D54FFCAE928C71508359 /* Pods-MigrosAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MigrosAppTests.release.xcconfig"; path = "Target Support Files/Pods-MigrosAppTests/Pods-MigrosAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD0CE0037E7CC832568B3957 /* Pods-MigrosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MigrosApp.release.xcconfig"; path = "Target Support Files/Pods-MigrosApp/Pods-MigrosApp.release.xcconfig"; sourceTree = "<group>"; };
+		E0A351AF78342597D3DB4E85 /* Pods_MigrosApp_MigrosAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MigrosApp_MigrosAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38DCC33E69459557495C609 /* Pods_MigrosApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E52F6B9F785C9E67AAB61EC /* Pods_MigrosAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +116,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121BA306D05F0B0C4D8F2707 /* Pods_MigrosApp_MigrosAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B113A7EEBC3E91D2C313C8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A82DB34DFE36D32EA63812A /* Pods_MigrosApp.framework */,
+				E0A351AF78342597D3DB4E85 /* Pods_MigrosApp_MigrosAppUITests.framework */,
+				3CAC26E8DA17BA94B4728A41 /* Pods_MigrosAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E94EE8EC8A6B6303E215DA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				168773D40297B790B40C28AB /* Pods-MigrosApp.debug.xcconfig */,
+				DD0CE0037E7CC832568B3957 /* Pods-MigrosApp.release.xcconfig */,
+				3A80E45B9529BD59AB30E9D3 /* Pods-MigrosApp-MigrosAppUITests.debug.xcconfig */,
+				9E2C7E06150748BBBC8A831B /* Pods-MigrosApp-MigrosAppUITests.release.xcconfig */,
+				C2D00BFB36B13A70927DC76C /* Pods-MigrosAppTests.debug.xcconfig */,
+				DAA5D54FFCAE928C71508359 /* Pods-MigrosAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4F3F4B32276D5FBD0006456D /* Product Struct */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +207,8 @@
 				4FB4C168276A88C800065FC0 /* MigrosAppTests */,
 				4FB4C172276A88C900065FC0 /* MigrosAppUITests */,
 				4FB4C150276A88C600065FC0 /* Products */,
+				1E94EE8EC8A6B6303E215DA7 /* Pods */,
+				0B113A7EEBC3E91D2C313C8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,7 +275,7 @@
 		4FB4C184276A8A1F00065FC0 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				4FCDDCEC276D1CC30053BB69 /* İmage Slider Cell */,
+				4FCDDCEC276D1CC30053BB69 /* İmage Slider Cell */,
 				4F9797A5276BE9EA007537D4 /* Button Cell */,
 				4F97979A276BE1DF007537D4 /* Collection View Cell */,
 				4F979795276BDF81007537D4 /* Header Label Cell */,
@@ -252,7 +293,7 @@
 			path = "Search Bar";
 			sourceTree = "<group>";
 		};
-		4FCDDCEC276D1CC30053BB69 /* İmage Slider Cell */ = {
+		4FCDDCEC276D1CC30053BB69 /* İmage Slider Cell */ = {
 			isa = PBXGroup;
 			children = (
 				4FCDDCF1276D1DA30053BB69 /* SliderCollectionViewCell */,
@@ -279,9 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB4C179276A88C900065FC0 /* Build configuration list for PBXNativeTarget "MigrosApp" */;
 			buildPhases = (
+				76874ED903679F017CF8B7B3 /* [CP] Check Pods Manifest.lock */,
 				4FB4C14B276A88C600065FC0 /* Sources */,
 				4FB4C14C276A88C600065FC0 /* Frameworks */,
 				4FB4C14D276A88C600065FC0 /* Resources */,
+				A4770FD3A8238D1D07B0523D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,6 +339,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB4C17C276A88C900065FC0 /* Build configuration list for PBXNativeTarget "MigrosAppTests" */;
 			buildPhases = (
+				9918FA0EBD10E3F45FBFC329 /* [CP] Check Pods Manifest.lock */,
 				4FB4C161276A88C800065FC0 /* Sources */,
 				4FB4C162276A88C800065FC0 /* Frameworks */,
 				4FB4C163276A88C800065FC0 /* Resources */,
@@ -314,9 +358,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB4C17F276A88C900065FC0 /* Build configuration list for PBXNativeTarget "MigrosAppUITests" */;
 			buildPhases = (
+				4546D6CB8E09EBF5A916E83D /* [CP] Check Pods Manifest.lock */,
 				4FB4C16B276A88C900065FC0 /* Sources */,
 				4FB4C16C276A88C900065FC0 /* Frameworks */,
 				4FB4C16D276A88C900065FC0 /* Resources */,
+				043167646B75EE2CB95A1D6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -404,6 +450,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		043167646B75EE2CB95A1D6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MigrosApp-MigrosAppUITests/Pods-MigrosApp-MigrosAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MigrosApp-MigrosAppUITests/Pods-MigrosApp-MigrosAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MigrosApp-MigrosAppUITests/Pods-MigrosApp-MigrosAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4546D6CB8E09EBF5A916E83D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MigrosApp-MigrosAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76874ED903679F017CF8B7B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MigrosApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9918FA0EBD10E3F45FBFC329 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MigrosAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4770FD3A8238D1D07B0523D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MigrosApp/Pods-MigrosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MigrosApp/Pods-MigrosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MigrosApp/Pods-MigrosApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4FB4C14B276A88C600065FC0 /* Sources */ = {
@@ -595,6 +744,7 @@
 		};
 		4FB4C17A276A88C900065FC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168773D40297B790B40C28AB /* Pods-MigrosApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -624,6 +774,7 @@
 		};
 		4FB4C17B276A88C900065FC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0CE0037E7CC832568B3957 /* Pods-MigrosApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -653,6 +804,7 @@
 		};
 		4FB4C17D276A88C900065FC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D00BFB36B13A70927DC76C /* Pods-MigrosAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -678,6 +830,7 @@
 		};
 		4FB4C17E276A88C900065FC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA5D54FFCAE928C71508359 /* Pods-MigrosAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -703,6 +856,7 @@
 		};
 		4FB4C180276A88C900065FC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A80E45B9529BD59AB30E9D3 /* Pods-MigrosApp-MigrosAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -726,6 +880,7 @@
 		};
 		4FB4C181276A88C900065FC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2C7E06150748BBBC8A831B /* Pods-MigrosApp-MigrosAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -27,6 +27,6 @@ class ProductCell: UICollectionViewCell {
     func configure(product : Product){
         self.productImage.image = UIImage(named: product.image!)
         self.productName.text = product.productName!
-        self.productPrice.text = product.productPrice!
+        self.productPrice.text = "\(product.productPrice!) TL"
     }
 }
