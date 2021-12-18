@@ -16,9 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView contentMode="scaleToFill" alwaysBounceVertical="YES" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="leb-ya-rJ9">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            <tableView contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="leb-ya-rJ9">
+                                <rect key="frame" x="0.0" y="119" width="414" height="694"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="694" id="YHY-p2-yw9"/>
+                                </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="searchBarCell" id="u01-Te-u5H" customClass="searchBarCell" customModule="MigrosApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="44"/>
@@ -30,66 +33,73 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qpe-zh-3Ca">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="119"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZu-xR-xYX">
+                                        <rect key="frame" x="108" y="46" width="75" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="2"/>
+                                        <connections>
+                                            <action selector="migrosHemen:" destination="foG-5I-Mz7" eventType="touchUpInside" id="2l8-6w-CIN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbS-YM-Ndg">
+                                        <rect key="frame" x="208" y="46" width="75" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="3"/>
+                                        <connections>
+                                            <action selector="migrosEkstra:" destination="foG-5I-Mz7" eventType="touchUpInside" id="1nM-PA-eNm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaG-0k-8dH">
+                                        <rect key="frame" x="8" y="46" width="75" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="1"/>
+                                        <connections>
+                                            <action selector="sanalMarket:" destination="foG-5I-Mz7" eventType="touchUpInside" id="Rtg-IR-0Fo"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2bl-M7-JVO"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
-                            <constraint firstItem="leb-ya-rJ9" firstAttribute="trailing" secondItem="2bl-M7-JVO" secondAttribute="trailing" id="SCC-Rp-FaD"/>
-                            <constraint firstItem="2bl-M7-JVO" firstAttribute="bottom" secondItem="leb-ya-rJ9" secondAttribute="bottom" id="fpX-6e-T5t"/>
-                            <constraint firstItem="leb-ya-rJ9" firstAttribute="leading" secondItem="2bl-M7-JVO" secondAttribute="leading" id="t4D-Gj-3QJ"/>
-                            <constraint firstItem="leb-ya-rJ9" firstAttribute="top" secondItem="2bl-M7-JVO" secondAttribute="top" id="wMH-hO-PBi"/>
+                            <constraint firstItem="qpe-zh-3Ca" firstAttribute="trailing" secondItem="2bl-M7-JVO" secondAttribute="trailing" id="Ced-HT-1dr"/>
+                            <constraint firstItem="qpe-zh-3Ca" firstAttribute="leading" secondItem="2bl-M7-JVO" secondAttribute="leading" id="ZNU-Yu-veI"/>
+                            <constraint firstItem="leb-ya-rJ9" firstAttribute="bottom" secondItem="2bl-M7-JVO" secondAttribute="bottom" id="bas-Sf-4uS"/>
+                            <constraint firstItem="qpe-zh-3Ca" firstAttribute="top" secondItem="6Jm-W9-W1q" secondAttribute="top" id="dhw-b6-4YX"/>
+                            <constraint firstItem="leb-ya-rJ9" firstAttribute="top" secondItem="qpe-zh-3Ca" secondAttribute="bottom" id="rwu-oX-fLE"/>
+                            <constraint firstItem="leb-ya-rJ9" firstAttribute="leading" secondItem="qpe-zh-3Ca" secondAttribute="leading" id="v5V-Nk-2S8"/>
+                            <constraint firstItem="leb-ya-rJ9" firstAttribute="trailing" secondItem="qpe-zh-3Ca" secondAttribute="trailing" id="zjs-LG-Saq"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" id="xcT-9J-ZvY"/>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="57C-Jv-RAb">
-                        <leftBarButtonItems>
-                            <barButtonItem title="Item" style="plain" id="oVF-NH-OOR">
-                                <button key="customView" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="OfG-80-DV1">
-                                    <rect key="frame" x="20" y="0.0" width="64" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" image="1"/>
-                                    <connections>
-                                        <action selector="sanalMarket:" destination="foG-5I-Mz7" eventType="touchUpInside" id="CeC-cw-b70"/>
-                                    </connections>
-                                </button>
-                            </barButtonItem>
-                            <barButtonItem style="plain" id="QZz-S5-DQ8">
-                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="BuE-KF-NzM">
-                                    <rect key="frame" x="92" y="0.0" width="64" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" image="2"/>
-                                </button>
-                            </barButtonItem>
-                            <barButtonItem style="plain" id="KCP-U7-YA7">
-                                <button key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="TJN-9Z-6Cl">
-                                    <rect key="frame" x="164" y="0.0" width="64" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" image="3"/>
-                                </button>
-                            </barButtonItem>
-                        </leftBarButtonItems>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="57C-Jv-RAb"/>
                     <connections>
-                        <outlet property="sanalMarket" destination="OfG-80-DV1" id="deR-xh-Q8k"/>
+                        <outlet property="migrosEkstra" destination="gbS-YM-Ndg" id="TIg-Gh-wve"/>
+                        <outlet property="migrosHemen" destination="dZu-xR-xYX" id="EHa-6W-JKM"/>
+                        <outlet property="sanalMarket" destination="kaG-0k-8dH" id="Bc8-li-Mdy"/>
                         <outlet property="tableView" destination="leb-ya-rJ9" id="o2M-hF-JKP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0aP-DU-ccr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5420" y="68"/>
+            <point key="canvasLocation" x="5417.3913043478269" y="67.633928571428569"/>
         </scene>
         <!--Kategoriler-->
         <scene sceneID="Qh9-1j-Stb">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="crG-YE-IEc" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="crG-YE-IEc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Kategoriler" image="magnifyingglass" catalog="system" id="JiL-fX-MQd"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="J0U-1a-obL">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <color key="tintColor" systemColor="systemOrangeColor"/>
@@ -144,11 +154,10 @@
         <!--Sepetim-->
         <scene sceneID="a9F-jg-GjT">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nod-3h-rr7" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Nod-3h-rr7" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Sepetim" image="bag.fill" catalog="system" id="rj1-Pd-jrx"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleAspectFit" id="tf9-BS-7lh">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <textAttributes key="largeTitleTextAttributes">
@@ -174,11 +183,10 @@
         <!--Anasayfa-->
         <scene sceneID="KBX-lr-wIX">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7Ha-ZH-5gc" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="7Ha-ZH-5gc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Anasayfa" image="homekit" catalog="system" id="F0S-rQ-K1X"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleAspectFit" id="TUk-Yt-hx1">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <textAttributes key="largeTitleTextAttributes">
@@ -206,9 +214,9 @@
         <segue reference="AQj-Bf-7zW"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="1" width="40" height="40"/>
-        <image name="2" width="40" height="40"/>
-        <image name="3" width="40" height="40"/>
+        <image name="1" width="75" height="50"/>
+        <image name="2" width="75" height="50"/>
+        <image name="3" width="75" height="50"/>
         <image name="bag.fill" catalog="system" width="128" height="128"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>

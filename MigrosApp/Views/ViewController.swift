@@ -15,6 +15,11 @@ class ViewController: UIViewController{
    
     @IBOutlet weak var sanalMarket: UIButton!
     
+    @IBOutlet weak var migrosHemen: UIButton!
+    
+    
+    @IBOutlet weak var migrosEkstra: UIButton!
+    
     @IBOutlet weak var tableView: UITableView!
     
     
@@ -23,6 +28,7 @@ class ViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
 //        Denemek için birkaç ürün ekledim.
         product.append(Product(image: "urun1", productName: "Yılbaşı Kutusu", productPrice: "154,90"))
         product.append(Product(image: "urun2", productName: "Eğlence Paketi", productPrice: "99,90"))
@@ -36,27 +42,10 @@ class ViewController: UIViewController{
         tableView.delegate = self
         tableView.dataSource = self
        
-
-        
-
-        
-        
-       
-      
-        
-       
-        
-       
-        // Do any additional setup after loading the view.
     }
     
-   
     
-    @IBAction func sanalMarket(_ sender: Any) {
-     
-        
-    
-    }
+
     
     func register (){
         let nibSearchBar = UINib(nibName: "searchBarCell", bundle: nil)
@@ -75,7 +64,31 @@ class ViewController: UIViewController{
         self.tableView.register(nibImageSlider, forCellReuseIdentifier: "ImageSliderCell")
     }
     
-   
+    
+    @IBAction func sanalMarket(_ sender: Any) {
+        
+        sanalMarket.frame = CGRect(x:8, y: 62, width: sanalMarket.frame.width, height: sanalMarket.frame.height)
+        migrosHemen.frame = CGRect(x:108, y: 46, width: sanalMarket.frame.width, height: sanalMarket.frame.height)
+        migrosEkstra.frame = CGRect(x:208, y: 46, width: sanalMarket.frame.width, height: sanalMarket.frame.height)
+    }
+    
+    
+    @IBAction func migrosHemen(_ sender: Any) {
+        sanalMarket.frame = CGRect(x:8, y: 46, width: sanalMarket.frame.width, height: sanalMarket.frame.height)
+        migrosHemen.frame = CGRect(x:108, y: 62, width: sanalMarket.frame.width, height: sanalMarket.frame.height)
+        migrosEkstra.frame = CGRect(x:208, y: 46, width: sanalMarket.frame.width, height: sanalMarket.frame.height)
+    }
+    
+    
+    @IBAction func migrosEkstra(_ sender: Any) {
+        sanalMarket.frame = CGRect(x:8, y: 46, width: sanalMarket.frame.width, height: sanalMarket.frame.height)
+        migrosHemen.frame = CGRect(x:108, y: 46, width: sanalMarket.frame.width, height: sanalMarket.frame.height)
+        migrosEkstra.frame = CGRect(x:208, y: 62, width: sanalMarket.frame.width, height: sanalMarket.frame.height)
+    }
+    
+    
+    
+    
     }
 
     
