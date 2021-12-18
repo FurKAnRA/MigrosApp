@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3F4B35276D5FE90006456D /* ProductStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F4B34276D5FE90006456D /* ProductStruct.swift */; };
+		4F979798276BDFB1007537D4 /* HeaderLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F979796276BDFB1007537D4 /* HeaderLabelTableViewCell.swift */; };
+		4F979799276BDFB1007537D4 /* HeaderLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F979797276BDFB1007537D4 /* HeaderLabelTableViewCell.xib */; };
+		4F97979E276BE202007537D4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F97979C276BE202007537D4 /* CollectionViewCell.swift */; };
+		4F97979F276BE202007537D4 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F97979D276BE202007537D4 /* CollectionViewCell.xib */; };
+		4F9797A3276BE232007537D4 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9797A1276BE232007537D4 /* ProductCell.swift */; };
+		4F9797A4276BE232007537D4 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9797A2276BE232007537D4 /* ProductCell.xib */; };
+		4F9797AD276BEB38007537D4 /* UIVİEW+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9797AC276BEB38007537D4 /* UIVİEW+Extensions.swift */; };
+		4F9797B1276BEB8C007537D4 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9797AF276BEB8B007537D4 /* ButtonCell.swift */; };
+		4F9797B2276BEB8C007537D4 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9797B0276BEB8C007537D4 /* ButtonCell.xib */; };
 		4FB4C153276A88C600065FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4C152276A88C600065FC0 /* AppDelegate.swift */; };
 		4FB4C155276A88C600065FC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4C154276A88C600065FC0 /* SceneDelegate.swift */; };
 		4FB4C157276A88C600065FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4C156276A88C600065FC0 /* ViewController.swift */; };
@@ -16,6 +26,12 @@
 		4FB4C16A276A88C800065FC0 /* MigrosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4C169276A88C800065FC0 /* MigrosAppTests.swift */; };
 		4FB4C174276A88C900065FC0 /* MigrosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4C173276A88C900065FC0 /* MigrosAppUITests.swift */; };
 		4FB4C176276A88C900065FC0 /* MigrosAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4C175276A88C900065FC0 /* MigrosAppUITestsLaunchTests.swift */; };
+		4FB4C187276A8AF800065FC0 /* searchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4C185276A8AF800065FC0 /* searchBarCell.swift */; };
+		4FB4C188276A8AF800065FC0 /* searchBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4C186276A8AF800065FC0 /* searchBarCell.xib */; };
+		4FCDDCEF276D1CE50053BB69 /* ImageSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDDCED276D1CE50053BB69 /* ImageSliderCell.swift */; };
+		4FCDDCF0276D1CE50053BB69 /* ImageSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FCDDCEE276D1CE50053BB69 /* ImageSliderCell.xib */; };
+		4FCDDCF4276D1DC20053BB69 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDDCF2276D1DC20053BB69 /* SliderCollectionViewCell.swift */; };
+		4FCDDCF5276D1DC20053BB69 /* SliderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FCDDCF3276D1DC20053BB69 /* SliderCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F3F4B34276D5FE90006456D /* ProductStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStruct.swift; sourceTree = "<group>"; };
+		4F979796276BDFB1007537D4 /* HeaderLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderLabelTableViewCell.swift; sourceTree = "<group>"; };
+		4F979797276BDFB1007537D4 /* HeaderLabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderLabelTableViewCell.xib; sourceTree = "<group>"; };
+		4F97979C276BE202007537D4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4F97979D276BE202007537D4 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		4F9797A1276BE232007537D4 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		4F9797A2276BE232007537D4 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		4F9797AC276BEB38007537D4 /* UIVİEW+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVİEW+Extensions.swift"; sourceTree = "<group>"; };
+		4F9797AF276BEB8B007537D4 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		4F9797B0276BEB8C007537D4 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
 		4FB4C14F276A88C600065FC0 /* MigrosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MigrosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB4C152276A88C600065FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FB4C154276A88C600065FC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +75,12 @@
 		4FB4C16F276A88C900065FC0 /* MigrosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigrosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB4C173276A88C900065FC0 /* MigrosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrosAppUITests.swift; sourceTree = "<group>"; };
 		4FB4C175276A88C900065FC0 /* MigrosAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrosAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FB4C185276A8AF800065FC0 /* searchBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchBarCell.swift; sourceTree = "<group>"; };
+		4FB4C186276A8AF800065FC0 /* searchBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchBarCell.xib; sourceTree = "<group>"; };
+		4FCDDCED276D1CE50053BB69 /* ImageSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderCell.swift; sourceTree = "<group>"; };
+		4FCDDCEE276D1CE50053BB69 /* ImageSliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageSliderCell.xib; sourceTree = "<group>"; };
+		4FCDDCF2276D1DC20053BB69 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		4FCDDCF3276D1DC20053BB69 /* SliderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +108,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F3F4B32276D5FBD0006456D /* Product Struct */ = {
+			isa = PBXGroup;
+			children = (
+				4F3F4B34276D5FE90006456D /* ProductStruct.swift */,
+			);
+			path = "Product Struct";
+			sourceTree = "<group>";
+		};
+		4F979795276BDF81007537D4 /* Header Label Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4F979796276BDFB1007537D4 /* HeaderLabelTableViewCell.swift */,
+				4F979797276BDFB1007537D4 /* HeaderLabelTableViewCell.xib */,
+			);
+			path = "Header Label Cell";
+			sourceTree = "<group>";
+		};
+		4F97979A276BE1DF007537D4 /* Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4F9797A0276BE205007537D4 /* ProductCell */,
+				4F97979C276BE202007537D4 /* CollectionViewCell.swift */,
+				4F97979D276BE202007537D4 /* CollectionViewCell.xib */,
+			);
+			path = "Collection View Cell";
+			sourceTree = "<group>";
+		};
+		4F9797A0276BE205007537D4 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				4F9797A1276BE232007537D4 /* ProductCell.swift */,
+				4F9797A2276BE232007537D4 /* ProductCell.xib */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		4F9797A5276BE9EA007537D4 /* Button Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4F9797AF276BEB8B007537D4 /* ButtonCell.swift */,
+				4F9797B0276BEB8C007537D4 /* ButtonCell.xib */,
+			);
+			path = "Button Cell";
+			sourceTree = "<group>";
+		};
+		4F9797AB276BEB21007537D4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4F9797AC276BEB38007537D4 /* UIVİEW+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		4FB4C146276A88C600065FC0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +184,15 @@
 		4FB4C151276A88C600065FC0 /* MigrosApp */ = {
 			isa = PBXGroup;
 			children = (
+				4FB4C160276A88C800065FC0 /* Info.plist */,
+				4FB4C15B276A88C800065FC0 /* Assets.xcassets */,
 				4FB4C152276A88C600065FC0 /* AppDelegate.swift */,
 				4FB4C154276A88C600065FC0 /* SceneDelegate.swift */,
-				4FB4C156276A88C600065FC0 /* ViewController.swift */,
-				4FB4C158276A88C600065FC0 /* Main.storyboard */,
-				4FB4C15B276A88C800065FC0 /* Assets.xcassets */,
-				4FB4C15D276A88C800065FC0 /* LaunchScreen.storyboard */,
-				4FB4C160276A88C800065FC0 /* Info.plist */,
+				4F9797AB276BEB21007537D4 /* Extensions */,
+				4F3F4B32276D5FBD0006456D /* Product Struct */,
+				4FB4C184276A8A1F00065FC0 /* Cells */,
+				4FB4C183276A893C00065FC0 /* Storyboards */,
+				4FB4C182276A893000065FC0 /* Views */,
 			);
 			path = MigrosApp;
 			sourceTree = "<group>";
@@ -125,6 +212,64 @@
 				4FB4C175276A88C900065FC0 /* MigrosAppUITestsLaunchTests.swift */,
 			);
 			path = MigrosAppUITests;
+			sourceTree = "<group>";
+		};
+		4FB4C182276A893000065FC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FB4C156276A88C600065FC0 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FB4C183276A893C00065FC0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4FB4C15D276A88C800065FC0 /* LaunchScreen.storyboard */,
+				4FB4C158276A88C600065FC0 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4FB4C184276A8A1F00065FC0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4FCDDCEC276D1CC30053BB69 /* İmage Slider Cell */,
+				4F9797A5276BE9EA007537D4 /* Button Cell */,
+				4F97979A276BE1DF007537D4 /* Collection View Cell */,
+				4F979795276BDF81007537D4 /* Header Label Cell */,
+				4FB4C18A276A8B1000065FC0 /* Search Bar */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4FB4C18A276A8B1000065FC0 /* Search Bar */ = {
+			isa = PBXGroup;
+			children = (
+				4FB4C185276A8AF800065FC0 /* searchBarCell.swift */,
+				4FB4C186276A8AF800065FC0 /* searchBarCell.xib */,
+			);
+			path = "Search Bar";
+			sourceTree = "<group>";
+		};
+		4FCDDCEC276D1CC30053BB69 /* İmage Slider Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4FCDDCF1276D1DA30053BB69 /* SliderCollectionViewCell */,
+				4FCDDCED276D1CE50053BB69 /* ImageSliderCell.swift */,
+				4FCDDCEE276D1CE50053BB69 /* ImageSliderCell.xib */,
+			);
+			name = "İmage Slider Cell";
+			path = "İmage Slider Cell";
+			sourceTree = "<group>";
+		};
+		4FCDDCF1276D1DA30053BB69 /* SliderCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4FCDDCF2276D1DC20053BB69 /* SliderCollectionViewCell.swift */,
+				4FCDDCF3276D1DC20053BB69 /* SliderCollectionViewCell.xib */,
+			);
+			path = SliderCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +377,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FB4C15F276A88C800065FC0 /* LaunchScreen.storyboard in Resources */,
+				4FCDDCF5276D1DC20053BB69 /* SliderCollectionViewCell.xib in Resources */,
+				4FB4C188276A8AF800065FC0 /* searchBarCell.xib in Resources */,
+				4F9797A4276BE232007537D4 /* ProductCell.xib in Resources */,
+				4FCDDCF0276D1CE50053BB69 /* ImageSliderCell.xib in Resources */,
+				4F9797B2276BEB8C007537D4 /* ButtonCell.xib in Resources */,
+				4F97979F276BE202007537D4 /* CollectionViewCell.xib in Resources */,
 				4FB4C15C276A88C800065FC0 /* Assets.xcassets in Resources */,
+				4F979799276BDFB1007537D4 /* HeaderLabelTableViewCell.xib in Resources */,
 				4FB4C15A276A88C600065FC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +410,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCDDCEF276D1CE50053BB69 /* ImageSliderCell.swift in Sources */,
+				4FCDDCF4276D1DC20053BB69 /* SliderCollectionViewCell.swift in Sources */,
 				4FB4C157276A88C600065FC0 /* ViewController.swift in Sources */,
+				4FB4C187276A8AF800065FC0 /* searchBarCell.swift in Sources */,
+				4F3F4B35276D5FE90006456D /* ProductStruct.swift in Sources */,
+				4F9797B1276BEB8C007537D4 /* ButtonCell.swift in Sources */,
+				4F97979E276BE202007537D4 /* CollectionViewCell.swift in Sources */,
 				4FB4C153276A88C600065FC0 /* AppDelegate.swift in Sources */,
+				4F9797AD276BEB38007537D4 /* UIVİEW+Extensions.swift in Sources */,
 				4FB4C155276A88C600065FC0 /* SceneDelegate.swift in Sources */,
+				4F9797A3276BE232007537D4 /* ProductCell.swift in Sources */,
+				4F979798276BDFB1007537D4 /* HeaderLabelTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +606,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,6 +635,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
