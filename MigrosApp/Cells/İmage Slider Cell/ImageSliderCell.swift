@@ -13,12 +13,16 @@ class ImageSliderCell: UITableViewCell {
     
     let data  = ["6","7","8","9","10"]
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var pageControl: UIPageControl!
     override func awakeFromNib() {
         super.awakeFromNib()
+        pageControl.numberOfPages = data.count
+        
         
         collectionView.delegate = self
         collectionView.dataSource = self
         
+       
         let collectionCellNib = UINib(nibName: "SliderCollectionViewCell", bundle: nil)
         collectionView.register(collectionCellNib, forCellWithReuseIdentifier: "SliderCollectionViewCell")
         
@@ -31,9 +35,18 @@ class ImageSliderCell: UITableViewCell {
 
         
     }
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        for cell in collectionView.visibleCells {
+                let indexPath = collectionView.indexPath(for: cell)
+            pageControl.currentPage = indexPath!.row
+            }
+    }
+
     
-}
-extension ImageSliderCell : UICollectionViewDelegate,  UICollectionViewDataSource , UICollectionViewDelegateFlowLayout {
+    }
+    
+
+extension ImageSliderCell : UICollectionViewDelegate,  UICollectionViewDataSource , UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 5
     }
@@ -47,9 +60,11 @@ extension ImageSliderCell : UICollectionViewDelegate,  UICollectionViewDataSourc
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         
-        return CGSize(width: collectionView.frame.width, height: 180)
+        return CGSize(width: collectionView.frame.width, height: 215)
     }
     
+   
+   
     
    
 }
