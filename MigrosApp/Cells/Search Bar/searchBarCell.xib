@@ -16,9 +16,21 @@
                 <rect key="frame" x="0.0" y="0.0" width="404" height="74"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <searchBar clipsSubviews="YES" contentMode="scaleToFill" placeholder="Eve ne lazım?" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQu-1R-oKq">
+                    <searchBar clipsSubviews="YES" contentMode="scaleToFill" placeholder="Eve ne lazım?" showsCancelButton="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQu-1R-oKq">
                         <rect key="frame" x="0.0" y="0.0" width="404" height="74"/>
-                        <textInputTraits key="textInputTraits"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="yes" smartInsertDeleteType="yes"/>
+                        <scopeButtonTitles>
+                            <string>Title</string>
+                            <string>Title</string>
+                        </scopeButtonTitles>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </searchBar>
                 </subviews>
                 <constraints>

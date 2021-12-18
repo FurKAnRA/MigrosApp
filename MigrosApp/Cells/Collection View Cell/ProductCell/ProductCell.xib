@@ -17,21 +17,21 @@
                 <rect key="frame" x="0.0" y="0.0" width="200" height="312"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="pEx-aI-WY8">
-                        <rect key="frame" x="20" y="20" width="146" height="153"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRK-DV-Jvb">
+                        <rect key="frame" x="167" y="0.0" width="33" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="33" id="1JQ-uS-JiZ"/>
+                            <constraint firstAttribute="height" constant="34" id="INS-fg-oRA"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system">
+                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="22"/>
+                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="pEx-aI-WY8">
+                        <rect key="frame" x="12" y="35" width="179" height="153"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="99,90" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7G-H9-IOr">
-                        <rect key="frame" x="20" y="239" width="76" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" systemColor="systemOrangeColor"/>
-                        <nil key="highlightedColor"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                <real key="value" value="40"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
-                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr.Oetker Krem Şanti" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="x40-SP-GRu">
                         <rect key="frame" x="10" y="196" width="170" height="21"/>
                         <constraints>
@@ -56,8 +56,8 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H61-va-sez">
-                        <rect key="frame" x="68" y="240" width="49" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" TL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H61-va-sez">
+                        <rect key="frame" x="69" y="238" width="49" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" systemColor="systemOrangeColor"/>
@@ -68,31 +68,31 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRK-DV-Jvb">
-                        <rect key="frame" x="167" y="0.0" width="33" height="34"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="20" id="1JQ-uS-JiZ"/>
-                            <constraint firstAttribute="height" constant="20" id="INS-fg-oRA"/>
-                        </constraints>
-                        <state key="normal" title="Button"/>
-                        <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system">
-                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="22"/>
-                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </buttonConfiguration>
-                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="99,90" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7G-H9-IOr">
+                        <rect key="frame" x="20" y="237" width="76" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" systemColor="systemOrangeColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="40"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="pEx-aI-WY8" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" constant="-7" id="3JO-Vu-fb8"/>
+                <constraint firstItem="pEx-aI-WY8" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" constant="1.5" id="3JO-Vu-fb8"/>
                 <constraint firstItem="x40-SP-GRu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="CpS-4c-c2S"/>
                 <constraint firstAttribute="trailing" secondItem="x40-SP-GRu" secondAttribute="trailing" constant="20" id="S6J-yj-26B"/>
-                <constraint firstItem="pEx-aI-WY8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="Sgg-3n-9kg"/>
-                <constraint firstItem="qRK-DV-Jvb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="TSh-Qy-IPn"/>
-                <constraint firstAttribute="trailing" secondItem="qRK-DV-Jvb" secondAttribute="trailing" constant="13" id="VRd-b5-Lpr"/>
+                <constraint firstItem="pEx-aI-WY8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="Sgg-3n-9kg"/>
+                <constraint firstItem="qRK-DV-Jvb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="TSh-Qy-IPn"/>
+                <constraint firstAttribute="trailing" secondItem="qRK-DV-Jvb" secondAttribute="trailing" id="VRd-b5-Lpr"/>
                 <constraint firstAttribute="bottom" secondItem="x40-SP-GRu" secondAttribute="bottom" constant="95" id="hTJ-Oh-cbd"/>
-                <constraint firstItem="pEx-aI-WY8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="sC8-5V-ccO"/>
-                <constraint firstItem="x40-SP-GRu" firstAttribute="top" secondItem="pEx-aI-WY8" secondAttribute="bottom" constant="23" id="tvP-Tt-e4r"/>
+                <constraint firstItem="pEx-aI-WY8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="35" id="sC8-5V-ccO"/>
+                <constraint firstItem="x40-SP-GRu" firstAttribute="top" secondItem="pEx-aI-WY8" secondAttribute="bottom" constant="8" id="tvP-Tt-e4r"/>
             </constraints>
             <size key="customSize" width="245" height="312"/>
             <connections>
